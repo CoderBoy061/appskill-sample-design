@@ -1,0 +1,71 @@
+.circle_main {
+  display: flex;
+  align-items: center;
+}
+.circle_main {
+  position: absolute;
+}
+.number {
+  font-size: 15vh;
+  font-weight: 900;
+  color: #85aab2;
+}
+.circle_body {
+  background: #2d063d;
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+}
+.circle_body2 {
+  background: #b51b01;
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+}
+.circle_body3 {
+  background: #fffc41;
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+}
+.circle_body2 > p {
+  color: white;
+  position: absolute;
+  margin-top: 9vh;
+  margin-left: 4vw;
+}
+.circle_body > p {
+  color: white;
+  position: absolute;
+  margin-top: 9vh;
+  margin-left: 4vw;
+}
+.circle_body3 > p {
+  color: white;
+  position: absolute;
+  margin-top: 9vh;
+  margin-left: 4vw;
+}
+.stpe_info {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 2.5vh;
+}
+.item {
+  font-size: 2.8vh;
+  color: #85aab2;
+  margin-top: 1.5vh;
+}
+.select {
+  font-size: 1.8vh;
+  font-weight: 600;
+  font-weight: 400;
+  margin-top: 1.5vh;
+}
+.otions {
+  font-size: 2.4vh;
+  margin-top: 1.8vh;
+  color: #689a39;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 10px;
+}
