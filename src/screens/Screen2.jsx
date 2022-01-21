@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Circle from "./Circle";
-import Circle2 from "./Circle2";
+import Circle from "../components/Circle";
+import Circle2 from "../components/Circle2";
 
 const Screen2 = () => {
     return (

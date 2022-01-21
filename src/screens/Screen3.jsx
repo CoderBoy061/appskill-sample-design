@@ -1,10 +1,13 @@
 import React from 'react';
-import Circle from "./Circle";
-import Circle2 from "./Circle2";
-import Circle3 from "./Circle3";
+import Circle from "../components/Circle";
+import Circle2 from "../components/Circle2";
+import Circle3 from "../components/Circle3"
 import { Link } from "react-router-dom";
 
 const Screen3 = () => {
+  // const nextBtn = ()=>{
+  //   <Circle />
+  // }
     return (
         <div className="main_div">
         <div className="header">
@@ -28,10 +31,10 @@ const Screen3 = () => {
         </div>
         <div className="btns">
         <Link to="/screen2">
-          <button className="backBtn">Back</button>
+          <button className="backBtn" >Back</button>
         </Link>
-        <Link to="/screen3">
-          <button className="nextBtn">next</button>
+        <Link to="/result">
+          <button className="nextBtn">submit</button>
         </Link>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { UserOutlined, ShoppingFilled } from "@ant-design/icons";
-import "./styles/nav.css";
+import "../styles/nav.css";
 
 const Navbar = () => {
   return (

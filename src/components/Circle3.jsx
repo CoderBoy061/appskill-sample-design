@@ -1,5 +1,7 @@
 import React from "react";
-import "./styles/circle.css";
+import "../styles/circle.css";
+import option from "../option";
+import Option from "./Option";
 
 const Circle3 = () => {
   return (
@@ -13,9 +15,12 @@ const Circle3 = () => {
       <div className="stpe_info">
         <p className="item">Item 3</p>
         <p className="select">select one option</p>
-        <p className="otions">
-          Option 1 Option 2 Option 3 Option 4 Option 5 Option 6
-        </p>
+        {
+          option.map((data,index)=>(
+            <Option data={data} key={index}/>
+          ))
+        }
+        
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from "react";
-import Circle from "./Circle";
-import Circle2 from "./Circle2";
-import Circle3 from "./Circle3";
-import "./styles/screen.css";
+import Circle from "../components/Circle";
+import Circle2 from "../components/Circle2";
+import Circle3 from "../components/Circle3";
 import { Link } from "react-router-dom";
+import "../styles/screen.css"
 
 const Scree1 = () => {
   return (
